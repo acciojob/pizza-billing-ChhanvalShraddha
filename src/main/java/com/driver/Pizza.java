@@ -28,7 +28,7 @@ public class Pizza {
            this.topping=120;
         }
         this.cheese=80;
-        this.bill+="Base Price Of The Pizza: "+this.price+"\n";
+        this.bill+="Base Price Of The Pizza:"+this.price+"\n";
     }
 
     public int getPrice(){
@@ -73,7 +73,7 @@ public class Pizza {
             if(isTakeAwayAdded){
                 this.bill+="Paperbag Added:"+"20"+"\n";//concatinating string using "+"
             }
-            this.bill+="Total Price: "+ this.price+"\n";
+            this.bill+="Total Price:"+ this.price+"\n";
             isBillGenerated=true;
 
         }
